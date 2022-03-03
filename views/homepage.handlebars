@@ -1,0 +1,32 @@
+
+<section class="">
+
+  <div class="">
+    <h2>Read Posts, Comment on Posts, or Write Your Own!</h2>
+    <p>Let the world know what's on your mind, everyone is dying to know!</p>
+    <p>Create an account to create your own posts and comment on existing posts.</p>
+    <p>Otherwise, stay and read posts for as long as you like!</p>
+  </div>
+
+</section>
+<section class="post-container">
+    <div>
+        {{#each posts as |post|}}
+            <div class="each-post">
+                <div class="post">
+                    <h3>{{post_name}}</h3>
+
+                    <p>{{post_text}}</p>
+                </div>
+                <div class="comment">
+                    {{#each Comments as |comment|}}
+                        <h5>{{comment.user_id}}</h5>
+
+                        <p>{{comment.comment_text}}</p>
+                    {{/each}}
+                </div>
+            </div>
+        {{/each}}
+    </div>
+    <script src=""></script>
+</section>

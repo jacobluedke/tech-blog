@@ -1,0 +1,20 @@
+<section class="post-container">
+    <div>
+        {{#each posts as |post|}}
+            <div class="each-post">
+                <div class="post">
+                    <h3>{{post_name}}</h3>
+
+                    <p>{{post_text}}</p>
+                </div>
+                <div class="comment">
+                    {{#each comments as |comment|}}
+                        <h5>Comment by {{Comments.user_id}}</h5>
+
+                        <p>{{Comments.comment_text}}</p>
+                    {{/each}}
+                </div>
+            </div>
+        {{/each}}
+    </div>
+</section>

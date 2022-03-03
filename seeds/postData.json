@@ -1,0 +1,27 @@
+[
+    {
+        "post_name": "post1",
+        "user_id": "1",
+        "post_text": "this is post 1"
+    },
+    {
+        "post_name": "post2",
+        "user_id": "2",
+        "post_text": "this is post 2"
+    },
+    {
+        "post_name": "post3",
+        "user_id": "3",
+        "post_text": "this is post 3"
+    },
+    {
+        "post_name": "post4",
+        "user_id": "4",
+        "post_text": "this is post 4"
+    },
+    {
+        "post_name": "post5",
+        "user_id": "5",
+        "post_text": "this is post 5"
+    }
+]
